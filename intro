@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>b1tdreamer</title>
+		<style>
+			body { margin: 0; background-color: #000; overflow:hidden;
+
+				-webkit-touch-callout: none;
+			    -webkit-user-select: none;
+			    -khtml-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			}
+			p { font-family: "Verdana", Monaco, monospace; color: #4b223a; cursor: default;}
+		</style>
+	</head>
+	<body>
+		<p id="code"></p>
+		<script>
+		var text = "";
+		var newText = "\n\tWelcome to b1tdreamer's page    \n\tif you are reading these lines, i'll be probably coding right now.
+    welcome!
+    more information b1tdreamer@collectivemind.es        ";
+		var code = document.getElementById("code");
+		code.innerText = text;
+		var clear = false;
+		var pause = 10;
+		setInterval(loop, 100); // 33 milliseconds = ~ 30 frames per sec
+		function loop() {
+		    if(newText.length > 0){
+		    	pause--;
+		    	if(pause <= 0){
+			    	text += newText.charAt(0);
+			    	newText = newText.substring(1);
+			    	code.innerText = text;
+			    }
+		    }else {
+		    	if(clear){
+			    	text = "guest@github.io:~$ ";
+			    	newText = "run      ";
+			    	clear = false;
+			    	code.innerText = text;
+			    }else {
+			    	if(code.clientHeight > window.innerHeight*0.8){
+			    		clear = true;
+			    		text += "\nguest@github.io:~$ ";
+			    		newText = "clear      ";
+			    		pause = 16;
+			    		code.innerText = text;
+			    	}
+			    	else {
+				    	text += "\ncommand not found\nguest@github.io:~$ ";
+				    	pause = 6;
+				    	newText = "run      ";
+			    		code.innerText = text;
+				    }
+				}
+		    }
+		}
+
+		</script>
+	</body>
+</html>
