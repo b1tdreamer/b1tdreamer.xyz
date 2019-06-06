@@ -33,6 +33,10 @@ h2 {
     font-size: 3.5rem
 }
 
+.purple{
+  color: #762f5d;
+}
+
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
@@ -60,9 +64,31 @@ h2 {
     color: #863f6d
 }
 
+.list-social-icons li{
+    border-radius: 50px;
+    transition: background 0.45s;
+}
+
+.list-social-icons li:hover{
+    background: #622d4c;
+    border-radius: 50px;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase
+}
+
+.skill{
+  display: inline-block;
+  width: 200px;
+}
+
+.skill::before{
+  content: "<<";
+  color: #762f5d;
+  padding-right: 10px;
+  font-weight: bold;
 }
 
 @media (min-width:992px) {
