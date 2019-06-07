@@ -158,19 +158,37 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #622d4c!important
+    background-color: #622d4c !important;
 }
 
 .text-primary {
-    color: #762f5d!important
+    color: #aaa !important;/*#762f5d !important;*/
+    font-size: 0.8em;
 }
 
 a {
-    color: #762f5d
+    color: #762f5d;
+    transition: color 0.45s;
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #863f6d
+    color: #863f6d !important;
+}
+
+.subheading.mb-5{
+      width: 70%;
+}
+
+.subheading a{
+  display: inline-block;
+    color: #aaa !important;
+    transition: color 0.45s;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+.subheading a:hover{
+    color: #863f6d !important;
 }

@@ -1,12 +1,13 @@
 
 .lines {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 74%;
   right: 0;
   height: 100%;
   margin: 0;
   width: 240px;
+  z-index: -1;
 }
 .lines .line {
   position: absolute;
