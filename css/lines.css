@@ -9,15 +9,17 @@
   width: 240px;
   z-index: -1;
 }
+
 .lines .line {
   position: absolute;
   width: 2px;
   height: 100%;
   top: 0;
   left: 40%;
-  background: rgba(38, 18, 30, 0);
+/*  background: rgba(38, 18, 30, 0);*/
   overflow: hidden;
 }
+
 .lines .line::after {
   content: "";
   display: block;
