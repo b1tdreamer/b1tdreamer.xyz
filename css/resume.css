@@ -192,3 +192,8 @@ a:hover {
 .subheading a:hover{
     color: #863f6d !important;
 }
+
+.element{
+    float: left;
+    margin: 0 40px 30px 0;
+}
