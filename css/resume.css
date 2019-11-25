@@ -33,6 +33,10 @@ h2 {
     font-size: 3.5rem
 }
 
+ul{
+    list-style-type: none;
+  }
+
 .purple{
   color: #762f5d;
 }
