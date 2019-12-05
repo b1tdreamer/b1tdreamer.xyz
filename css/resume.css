@@ -37,6 +37,8 @@ ul{
     list-style-type: none;
   }
 
+.b1teye{display:none;}
+
 .purple{
   color: #762f5d;
 }
@@ -145,13 +147,20 @@ section.resume-section .resume-item .resume-date {
     min-width: none
 }
 
+@media (min-width:320px) {
+  .bg-primary {
+      display: none;
+  }
+  .b1teye{display:block;margin:0 auto;}
+}
+
 @media (min-width:768px) {
-    section.resume-section {
-        min-height: 100vh
-    }
-    section.resume-section .resume-item .resume-date {
-        min-width: 18rem
-    }
+  section.resume-section {
+      min-height: 100vh
+  }
+  section.resume-section .resume-item .resume-date {
+      min-width: 18rem
+  }
 }
 
 @media (min-width:992px) {
@@ -159,6 +168,7 @@ section.resume-section .resume-item .resume-date {
         padding-top: 3rem!important;
         padding-bottom: 3rem!important
     }
+    .b1teye{display:none;}
 }
 
 .bg-primary {
