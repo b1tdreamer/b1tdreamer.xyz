@@ -1,5 +1,8 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 54px;
     color: #aaa;
     background: url(https://collectivemind.es/2.0/img/backgrounds/back.jpg);
@@ -196,6 +199,7 @@ section.resume-section .resume-item .resume-date {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important
     }*/
+    section.resume-section {min-height: 100vh}
     .b1teye{display:none;}
     .projectImage{width:1000px;}
 }
