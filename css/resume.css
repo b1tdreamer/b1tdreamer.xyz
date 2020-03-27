@@ -164,6 +164,30 @@ section.resume-section .resume-item .resume-date {
     min-width: none
 }
 
+/* SCROLLBAR Customization */
+/* width */
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #333;
+  background: #666;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #762f5d;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #6a2351;
+}
+
+
 @media (max-width: 767px) and (min-width:320px){
   .bg-primary {
       display: none;
