@@ -147,6 +147,89 @@ a:active,a:focus,a:hover { color: #863f6d !important;}
   padding-right: 10px;
   font-weight: bold;
 }
+/*.gl1tch{
+  content: attr(data-text);
+  animation: gl1tch-1 0.5s linear infinite reverse;
+	padding: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+}
+
+.gl1tch:before{
+  left: 3px;
+  text-shadow: -2px 0 #d8031c;
+  animation: glitch-1 2s linear infinite reverse;
+}
+
+@keyframes gl1tch-1 {
+  0% {
+    clip: rect(132px, 350px, 101px, 30px);
+  }
+  5% {
+    clip: rect(17px, 350px, 94px, 30px);
+		content: "i";
+  }
+  10% {
+    clip: rect(40px, 350px, 66px, 30px);
+  }
+  15% {
+    clip: rect(87px, 350px, 82px, 30px);
+  }
+  20% {
+    clip: rect(137px, 350px, 61px, 30px);
+  }
+  25% {
+    clip: rect(34px, 350px, 14px, 30px);
+  }
+  30% {
+    clip: rect(133px, 350px, 74px, 30px);
+  }
+  35% {
+    clip: rect(76px, 350px, 107px, 30px);
+  }
+  40% {
+    clip: rect(59px, 350px, 130px, 30px);
+  }
+  45% {
+    clip: rect(29px, 350px, 84px, 30px);
+  }
+  50% {
+    clip: rect(22px, 350px, 67px, 30px);
+  }
+  55% {
+    clip: rect(67px, 350px, 62px, 30px);
+  }
+  60% {
+    clip: rect(10px, 350px, 105px, 30px);
+  }
+  65% {
+    clip: rect(78px, 350px, 115px, 30px);
+  }
+  70% {
+    clip: rect(105px, 350px, 13px, 30px);
+  }
+  75% {
+    clip: rect(15px, 350px, 75px, 30px);
+  }
+  80% {
+    clip: rect(66px, 350px, 39px, 30px);
+  }
+  85% {
+    clip: rect(133px, 350px, 73px, 30px);
+  }
+  90% {
+    clip: rect(36px, 350px, 128px, 30px);
+  }
+  95% {
+    clip: rect(68px, 350px, 103px, 30px);
+  }
+  100% {
+    clip: rect(14px, 350px, 100px, 30px);
+  }
+}*/
 
 @media (min-width:992px) {
     #sideNav {
