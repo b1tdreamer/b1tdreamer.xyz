@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^b1tdreamer\.collectivemind\.es$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.b1tdreamer\.collectivemind\.es$
+RewriteRule ^/?$ "https\:\/\/b1tdreamer\.me" [R=301,L]

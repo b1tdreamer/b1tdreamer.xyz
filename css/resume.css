@@ -5,7 +5,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding-top: 54px;
     color: #aaa;
+<<<<<<< Updated upstream
     background: url(http://collectivemind.es/2.0/img/backgrounds/back.jpg);
+=======
+    background: url(../img/back.jpg);
+>>>>>>> Stashed changes
 }
 
 @media (min-width:992px) {
